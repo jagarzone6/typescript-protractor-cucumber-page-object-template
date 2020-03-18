@@ -1,0 +1,30 @@
+{
+  "name": "ll_code_challenge",
+  "version": "1.0.0",
+  "description": "E2E Tests for example app",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-run": "webdriver-manager start",
+    "test:report": "node scripts/report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iso13/ll_code_challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iso13/ll_code_challenge/issues"
+  },
+  "homepage": "https://github.com/iso13/ll_code_challenge#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^5.1.0",
+    "cucumber-html-reporter": "^5.0.0",
+    "protractor": "^5.4.2",
+    "protractor-cucumber-framework": "^6.1.3"
+  }
+}

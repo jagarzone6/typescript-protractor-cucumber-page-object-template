@@ -1,0 +1,41 @@
+{
+  "default": {
+    "appURL": "http://www.way2automation.com/angularjs-protractor/webtables/",
+    "newUser":{
+      "firstName": "Jhon A",
+      "lastName": "Senna E",
+      "userName": "Senna",
+      "pass": "Senna123",
+      "customerCode": "15",
+      "roleId": "1",
+      "email": "senna@test.test",
+      "mobilePhone": "12312344"
+    }
+  },
+  "dev": {
+    "appURL": "http://www.way2automation.com/angularjs-protractor/webtables/",
+    "newUser":{
+      "firstName": "Jhon",
+      "lastName": "Senna",
+      "userName": "Senna",
+      "pass": "Senna123",
+      "customerCode": "15",
+      "roleId": "1",
+      "email": "senna@test.test",
+      "mobilePhone": "12312344"
+    }
+  },
+  "qa": {
+    "appURL": "http://www.way2automation.com/angularjs-protractor/webtables/",
+    "newUser":{
+      "firstName": "Jhon",
+      "lastName": "Senna",
+      "userName": "Senna",
+      "pass": "Senna123",
+      "customerCode": "15",
+      "roleId": "1",
+      "email": "senna@test.test",
+      "mobilePhone": "12312344"
+    }
+  }
+}
