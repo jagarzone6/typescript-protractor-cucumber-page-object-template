@@ -6,7 +6,7 @@ exports.config = {
 
     seleniumAddress: 'http://localhost:4444/wd/hub',
   
-    baseUrl: 'http://www.way2automation.com/angularjs-protractor/webtables/',
+    baseUrl: '',
   
     multiCapabilities: [{
       browserName: 'chrome',
