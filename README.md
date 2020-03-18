@@ -1,7 +1,7 @@
 # protractor-cucumber-page-object-template
 protractor-cucumber-page-object-template
 
-E2E Tests for example app http://www.way2automation.com/angularjs-protractor/webtables/, using protactor and cucumber
+E2E Tests for mercadolibre.com, using protactor and cucumber
 
 Know how:
 
