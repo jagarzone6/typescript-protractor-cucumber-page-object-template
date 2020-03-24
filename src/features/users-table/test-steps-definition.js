@@ -1,5 +1,4 @@
 const { Given, When, Then } = require("cucumber");
-var { element, By } = require("protractor");
 
 Given(
   "I access mercadolibre site",

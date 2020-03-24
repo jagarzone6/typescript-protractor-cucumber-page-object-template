@@ -1,15 +1,13 @@
-var { element, By, $ } = require("protractor");
-class CountryPage {
-  constructor(EC) {
+var { By } = require("protractor");
+var BasePage = require("./../pages/base-page");
+
+class CountryPage extends BasePage {
+  constructor() {
+    super();
     this.CO_SELECTOR = By.id('CO');
-    this.EC = EC;
   }
   async clickOnCOButton() {
-    await browser.wait(
-      this.EC.visibilityOf(element(this.CO_SELECTOR)),
-      5000
-    );
-    return element(this.CO_SELECTOR).click();
+    await this.clickElement(this.CO_SELECTOR);
   }
 }
 
