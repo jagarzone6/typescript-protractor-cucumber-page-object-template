@@ -30,7 +30,7 @@ exports.config = {
       strict: true,                  // <boolean> fail if there are any undefined or pending steps
       'dry-run': false,              // <boolean> invoke formatters without executing steps
       compiler: [],                   // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
-      format: ['json:reports/cucumber_report.json']
+      format: ['node_modules/cucumber-pretty', 'json:reports/cucumber_report.json']
     },
   
    onPrepare: function () {

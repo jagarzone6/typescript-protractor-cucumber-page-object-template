@@ -27,5 +27,8 @@ When("I filter by location {string}", async function(text) {
 
 When("I order by less price", async function() {
   await this.coPage.orderByLessPrice();
+});
+
+Then("I can see first 5 filtered items", async function() {
   await this.coPage.printFirstResults();
 });
