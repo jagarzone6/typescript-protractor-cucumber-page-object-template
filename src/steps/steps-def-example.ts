@@ -2,7 +2,7 @@ import { Given, When, Then } from "cucumber";
 import { browser } from "protractor";
 import { World } from "../cucumber/world";
 
-Given('I access example site', async function (this: World) {
+Given(/I access .* site$/, async function (this: World) {
     await browser.waitForAngularEnabled(false);
     await browser.get(this.appURL);
 });
