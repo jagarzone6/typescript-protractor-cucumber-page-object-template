@@ -8,7 +8,6 @@ import environments from './../../resources/config.json';
 export class World implements CucumberWorld {
   constructor() {
     this.testData = {};
-    console.log("ENviroments: "+environments)
     this.appURL = environments[browser.params.env ? browser.params.env : 'default'].appURL;
     this.examplePage = new ExamplePage();
     this.assert = assert;
