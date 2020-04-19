@@ -1,4 +1,4 @@
-const { After, Before } = require("cucumber");
+import { After, Before } from "cucumber";
 
 Before(async function() {
 });

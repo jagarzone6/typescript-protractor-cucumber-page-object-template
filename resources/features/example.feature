@@ -1,13 +1,11 @@
 @users-table
-Feature: Test
+Feature: Example feature
+As a user
+I would like to 
+So that I can
 
-    Background: :
-        Given I access mercadolibre site
+    Background:
+        Given I access example site
 
-    Scenario: Test scenario
-        When I select colombian site
-        And I search for "zapatos de hombres"
-        And I filter by new
-        And I filter by location "Bogotá D.C"
-        And I order by less price
-        Then I can see first 5 filtered items
+    Scenario: Search scenario
+        And I search "super bowl" in the search box
