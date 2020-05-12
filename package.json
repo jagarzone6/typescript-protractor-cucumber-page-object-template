@@ -1,5 +1,5 @@
 {
-  "name": "ll_code_challenge",
+  "name": "cucumber_protractor_pom_typescript_template",
   "version": "1.0.0",
   "description": "E2E Tests for example app",
   "main": "index.js",
@@ -31,7 +31,7 @@
     "cucumber-pretty": "1.5.2",
     "protractor": "5.4.2",
     "protractor-cucumber-framework": "6.1.3",
+    "source-map-support": "^0.5.19",
     "typescript": "3.6.4"
-  },
-  "devDependencies": {}
+  }
 }

@@ -1,6 +1,6 @@
 import { setWorldConstructor, setDefaultTimeout, World as CucumberWorld } from "cucumber";
 import { browser } from 'protractor'
-import {ExamplePage} from "../pages/example-page";
+import { ExamplePage } from "../pages/example-page";
 import { assert, use } from "chai";
 import chaiAsPromised from "chai-as-promised";
 import environments from './../../resources/config.json';
@@ -15,7 +15,7 @@ export class World implements CucumberWorld {
   testData: {};
   appURL: string;
   examplePage: ExamplePage;
-  assert: any
+  assert: Chai.AssertStatic
 }
 
 use(chaiAsPromised);
