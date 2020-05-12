@@ -4,7 +4,7 @@
   "description": "E2E Tests for example app",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && protractor build/src/protractor.js",
+    "test": "rm reports/*.json && rm reports/html/*.* && tsc && protractor build/src/protractor.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-run": "webdriver-manager start",
     "test:report": "node scripts/report.js"
